@@ -16,7 +16,7 @@ The Gobot driver for the GrovePi+ board requires that the board has been upgrade
 
 ## Running the code
 
-When you run any of these examples, you will compile the code on your computer, but then execute the binary file on the Raspberry Pi itself. 
+When you run any of these examples, you will compile the code on your computer, but then execute the binary file on the Raspberry Pi itself.
 
 This will require moving the compiled code onto the Raspberry Pi, and then execute the code on the Raspberry Pi itself, not on your own computer.
 
@@ -56,15 +56,15 @@ ssh -t pi@[IP of your device] ./step1app
 
 Ready? Let's get started.
 
-### step0 - Connect the GrovePi Sheild 
+### step0 - Connect the GrovePi Sheild
 
 connect the sheild to the end of the pins on the Raspberry Pi as shown below.
 
-(../../images/sensor/raspi/step2.jpg)
+![Raspberry Pi - Step 0](../../images/sensor/raspi/connectsheild.jpg)
 
 ### step1.go - LED
 
-![Raspberry Pi - Step 1](../../images/sensor/raspi/connectsheild.jpg)
+![Raspberry Pi - Step 1](../../images/sensor/raspi/step1.jpg)
 
 Connect the green LED to pin D2 on the GrovePi+ board using the Grove connector.
 
